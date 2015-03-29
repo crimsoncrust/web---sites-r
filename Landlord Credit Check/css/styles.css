@@ -316,3 +316,18 @@ a:hover {
 .headerspace {
 	margin-top:80px;
 }
+
+#faqspacing {
+	width:500px;
+	margin-left:40px;
+	font-size:.95em;
+	margin-bottom:30px;
+}
+
+#faqspacing a {
+	color:blue;
+}
+
+#faqspacing a:link {
+	color:blue;
+}
