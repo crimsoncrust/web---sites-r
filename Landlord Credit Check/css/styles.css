@@ -298,3 +298,21 @@ a:hover {
 #emaillink a:link {
 	color:blue;
 }
+
+.onsiteparagraph {
+	width:500px;
+	margin-top:20px;
+	margin-left:50px;
+}
+
+#becomelink a {
+	color:hsla(360, 100%, 57%, 1);
+}
+
+#becomelink a:hover {
+	color:hsla(360, 0%, 45%, 1);
+}
+
+.headerspace {
+	margin-top:80px;
+}
