@@ -355,3 +355,39 @@ a:hover {
 #faqspacing a:link {
 	color:blue;
 }
+
+.spacingforhtml {
+                width:500px;
+                margin-left:40px;
+                font-size:.95em;
+                margin-bottom:30px;
+}
+ 
+#membertable {
+                width:550px;
+                margin-left:50px;
+                margin-bottom:30px;
+}
+ 
+#membertable table td  {
+                text-align: :left;
+                padding:10px;
+                border-bottom:1px solid black;
+}
+ 
+#membertable table th {
+                text-align: left;
+                padding-left:8px;
+}
+ 
+#membertable a:link {
+                color:hsla(243, 100%, 50%, 1);
+}
+ 
+#membertable a:visited {
+                color:hsla(243, 100%, 70%, 1);
+}
+ 
+#membertable a:hover {
+                color:hsla(243, 100%, 50%, .25);
+}
