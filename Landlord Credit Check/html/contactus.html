@@ -53,17 +53,47 @@
 	</div>
 	</nav>
 </header>
-<div  class="clear">
-<!---- content goes here need to float left and remove clear add clear before next float below ---->
-<!---- content goes here ---->
-<!---- content goes here ---->
-<!---- content goes here ---->
-<!---- content goes here ---->
-<!---- content goes here ---->
-<!---- content goes here ---->
-<!---- content goes here ---->
-<!---- content goes here ---->
-<!---- content goes here ---->
+<br>
+<div  class="floatleft">
+<div id="contactpage">
+<h2>Contact Information:</h2>
+<ul>
+		<li>Phone: (512) 285-6078</li>
+		<li>Fax:   (512) 285 - 6336</li>
+		<li><a href="mailto:info@accuratecredit.com" class="hlinks_links">info@accuratecredit.com </a></li>
+		<li>Hours:</li>
+		<li>Mon-Friday: 8Am-6Pm</li>
+		<li>Saturday: 10Am-4Pm</li>
+		<li>Sunday: Closed</li>
+	</ul>
+</div>
+<div id="contactform">
+<h2>Contact Us</h2>
+<form action="needtoinput.php" method="post">
+	<fieldset>
+		<label for="fullName">Full Name:</label><br>
+		<input id="fullName" type="text" name="firstname" required="required" placeholder="Full Name">
+		<br>
+		<br>
+		<label for="Email">Email:</label><br>
+	 	<input class="all" id="Email" type="email" name="Email" required="required" placeholder="@anywhere.com">
+	 	<br>
+	 	<br>
+	 	<p>Leave your questions and comments here!</p>
+	 	<textarea name="comments" class="comments">Comments</textarea>
+	 	<p>Do you wish to be added to our email list?</p>
+	 	<select name="Add">
+	 	<option value="no" selected="selected">No</option>
+	 	<option value ="yes">Yes</option>
+	 	</select>
+	 	<br>
+	 	<input class="all" type="submit" value="submit" id="submit">
+	 	<input class="all" type="reset" value="reset" id="reset">
+	</fieldset>
+</form>
+</div>
+</div>
+<div class="clear">
 </div>
 <div id="center" class="floatleft">
 <h2>Join our Mailing List</h2>
