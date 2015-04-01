@@ -441,3 +441,41 @@ a:hover {
                 height:100px;
                 width:275px;
 }
+
+
+
+#applicationtable {
+                width:550px;
+                margin-left:50px;
+                margin-bottom:50px;
+                margin-top:50px;
+}
+ 
+#applicationtable table td  {
+                text-align: :left;
+                padding:10px;
+                border-bottom:1px solid black;
+                font-size:.9em;
+}
+ 
+#applicationtable table th {
+                text-align: left;
+                padding-left:8px;
+}
+
+ 
+#applicationtable a:link {
+                color:hsla(243, 100%, 50%, 1);
+}
+ 
+#applicationtable a:visited {
+                color:hsla(243, 100%, 70%, 1);
+}
+ 
+#applicationtable a:hover {
+                color:hsla(243, 100%, 50%, .25);
+}
+
+.tablebackground {
+	background-color:hsla(325, 0%, 89%, 1);
+}
