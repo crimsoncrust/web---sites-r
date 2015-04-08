@@ -144,6 +144,15 @@ h4 {
 	margin-left:10px;
 }
 
+.indentleft{
+	margin-left:50px;
+	margin-bottom:100px;
+}
+
+.indentnone {
+	margin-left:0px;
+}
+
 .spacing {
 	height:30px;
 }
@@ -445,6 +454,7 @@ a:hover {
 
 
 #applicationtable {
+				position:relative;
                 width:550px;
                 margin-left:50px;
                 margin-bottom:50px;
@@ -478,4 +488,77 @@ a:hover {
 
 .tablebackground {
 	background-color:hsla(325, 0%, 89%, 1);
+}
+
+#tencredittable {
+	 width:500px;
+     margin-left:150px;
+     margin-bottom:30px;
+     margin-top:20px;
+}
+
+#tencredittable th {
+	padding-bottom:20px;
+}
+
+#tencredittable td {
+ 	text-align: left;
+ 	border-bottom:1px solid;
+ 	padding:10px;
+}
+
+#tencredittable thead {
+	font-size: 1.1em;
+}
+
+.borderright {
+	border-right:1px solid;
+}
+
+.borderleft {
+	border-left:1px solid;
+	padding-left:50px;
+}
+
+#tencreditreportpage {
+	width:500px;
+	margin-bottom:50px;
+	margin-left:50px;
+	margin-top:20px;
+}
+
+#comparisontable {
+	 width:500px;
+     margin-left:50px;
+     margin-bottom:30px;
+     margin-top:20px;
+}
+
+#comparisontable th {
+	padding-bottom:20px;
+}
+
+#comparisontable td {
+ 	text-align: left;
+ 	border-bottom:1px solid;
+ 	padding:10px;
+}
+
+#comparisontable thead {
+	font-size: 1em;
+}
+
+#criminalform {
+	 width:550px;
+     margin-left:40px;
+     font-size:.95em;
+     margin-bottom:30px;
+}
+
+#criminalform form {
+	width:500px;
+}
+
+#criminalform label {
+	float:left;
 }
