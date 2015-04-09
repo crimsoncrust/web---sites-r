@@ -163,11 +163,12 @@ table {
 
 #tableborder {
 	border-bottom: 1px solid;
-	width:550px;
+	width:590px;
+	margin-top:50px;
 	margin-left:50px;
-	margin-bottom:20px;
-	padding-bottom:50px;
-	font-size:.95em;
+	margin-bottom:100px;
+	padding-bottom:30px;
+	font-size:1.1em;
 
 }
 
@@ -183,6 +184,10 @@ table {
 	color:hsla(360, 0%, 45%, 1);
 }
 
+.movetop {
+	padding-top:50px;
+	padding-bottom:20px;
+}
 
 #tablepricelist {
 	border-bottom: 1px solid;
